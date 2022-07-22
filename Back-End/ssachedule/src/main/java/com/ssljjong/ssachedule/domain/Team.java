@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:25b5cce9ff4d4a5e386d6616bf2349f99b52ea2fba7bf2df6b64f7f17f7d2b63
-size 288
+package com.ssljjong.ssachedule.domain;
+
+import lombok.Getter;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+@Getter
+public class Team {
+
+    @Id
+    @Column(name="team_id")
+    private Long teamId;
+
+    private String name;
+
+
+}
