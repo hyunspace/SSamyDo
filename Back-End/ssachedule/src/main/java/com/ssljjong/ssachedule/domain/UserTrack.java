@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ca4bbcbbf665c3ce76961b8de7cf3cc0f8557ba47a321a859102b320f65e97f
-size 412
+package com.ssljjong.ssachedule.domain;
+
+import lombok.Getter;
+
+import javax.persistence.*;
+
+@Entity
+@Getter
+public class UserTrack {
+
+    @Id @GeneratedValue
+    private Long id;
+
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_email")
+    private UserDomain user;
+
+    @ManyToOne(fetch= FetchType.LAZY)
+    @JoinColumn(name="track_id")
+    private Track track;
+
+}
