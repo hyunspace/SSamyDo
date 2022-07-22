@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:527cb18415a180a999289785e249aa98c08f6e0c07abac5bd896b12736a4b8e7
-size 32
+rootProject.name = 'ssachedule'

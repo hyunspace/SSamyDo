@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ac2921acf40f63f94aa37e2be15d4f27994af36e78988fa28b362b7991a7f63
-size 454
+package com.ssljjong.ssachedule.domain;
+
+import lombok.Getter;
+
+import javax.persistence.*;
+import javax.ws.rs.ext.ParamConverter;
+
+@Entity
+@Getter
+public class TeamUser {
+
+    @Id @GeneratedValue
+    @Column (name ="order_item_id")
+    private Long id;
+
+    @ManyToOne(fetch= FetchType.LAZY)
+    @JoinColumn(name="team_id")
+    private Team team;
+
+    @ManyToOne(fetch= FetchType.LAZY)
+    @JoinColumn(name="user_email")
+    private UserDomain user;
+
+}
