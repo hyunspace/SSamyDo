@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47137ba19514d8790e19f9f9da2446d0b4cecdb35e597e72727bc6cf51184101
-size 324
+package com.ssljjong.ssachedule;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SsacheduleApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SsacheduleApplication.class, args);
+	}
+
+}
