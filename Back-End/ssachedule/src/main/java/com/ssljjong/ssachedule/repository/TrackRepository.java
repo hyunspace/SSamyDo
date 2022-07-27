@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9833fded3ef510e3d4e1f4953b76d73eafb46ac315530bb4c1656520556852a5
-size 313
+package com.ssljjong.ssachedule.repository;
+
+import com.ssljjong.ssachedule.domain.Track;
+
+import java.util.List;
+
+public interface TrackRepository {
+
+    public void save(Track track);
+    public Track findOne(Long id);
+    public List<Track> findAll();
+    public Track findTrack(int gisu, String trackName);
+}
