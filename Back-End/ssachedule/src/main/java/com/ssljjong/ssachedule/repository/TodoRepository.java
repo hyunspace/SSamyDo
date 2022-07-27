@@ -1,14 +1,3 @@
-package com.ssljjong.ssachedule.repository;
-
-import com.ssljjong.ssachedule.domain.Todo;
-
-import java.util.Date;
-import java.util.List;
-
-public interface TodoRepository {
-    public  void save(Todo todo);
-    public  Todo findOne(Long id);
-    public List<Todo> findAll();
-
-    public List<Todo> findByDue(Date dueDate);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d965f15028e7ede958537c8bd3973c7b7daf9900e8c324a3d55d8d5819309a6
+size 323
