@@ -1,16 +1,3 @@
-package com.ssljjong.ssachedule.repository;
-
-import com.ssljjong.ssachedule.domain.Channel;
-import com.ssljjong.ssachedule.domain.Team;
-import com.ssljjong.ssachedule.domain.UserDomain;
-
-import java.util.List;
-
-public interface ChannelRepository {
-
-    public void save(Channel channel);
-    public Channel findOne(Long id);
-    public List<Channel> findAll();
-    public List<Channel> findByTeam(Team team);
-    public List<Channel> find   
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd461a8ccd6bf8e5b5dcc271210e7955a316054eee72106a7a82ebae77002ff2
+size 358

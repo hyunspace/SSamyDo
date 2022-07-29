@@ -1,18 +1,3 @@
-import { View, Text, Button } from "react-native";
-import styles from "../../../app.module.css";
-
-function TodoItem({ navigation }) {
-  return (
-    <View style={styles.container}>
-      <View style={{ flexDirection: "row" }}>
-        <Text>TodoItem.js</Text>
-        <Button
-          title="Detail"
-          onPress={() => navigation.navigate("TodoDetail")}
-        />
-      </View>
-    </View>
-  );
-}
-
-export default TodoItem;
+version https://git-lfs.github.com/spec/v1
+oid sha256:99fa0bd581b910fb0a997c4c7fbbf187f388c9fe87ffd38eb9ceeb7393b491fe
+size 431
