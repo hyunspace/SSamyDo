@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab75807760aa75795eed7a56bbb4bc1036f06d551f2bd5c2414609750cb86819
-size 328
+package com.ssljjong.ssachedule.service;
+
+import com.ssljjong.ssachedule.dto.LunchDto;
+
+import java.time.LocalDate;
+import java.util.List;
+
+public interface LunchService {
+
+    public List<LunchDto> getTodayLunch();
+    public List<LunchDto> getLunchForDate(LocalDate date);
+    public List<LunchDto> getLunchesForPeriod(LocalDate start, LocalDate end);
+
+}
