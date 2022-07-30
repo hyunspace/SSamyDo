@@ -1,15 +1,3 @@
-package com.ssljjong.ssachedule.repository;
-
-import com.ssljjong.ssachedule.domain.Team;
-import com.ssljjong.ssachedule.domain.UserDomain;
-
-import java.util.List;
-
-public interface TeamRepository {
-
-    public void save(Team team);
-    public Team findOne(Long id);
-    public List<Team> findAll();
-    public List<Team> findByUser(UserDomain user);
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:704af98c4c516f263a795ad9d5b6ca99352783e57732644db924f55f0011441b
+size 353
