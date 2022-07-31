@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:27bb0ae8b3950019f089cd24dd802fae98e4820aa402891bb424fbbc35cbf9df
-size 512
+import { View, Button } from "react-native";
+import Month from "../components/calendar/Month";
+import ScheduleList from "../components/calendar/ScheduleList";
+import styles from "../../app.module.css";
+
+export default function Calendar({ navigation }) {
+  return (
+    <View>
+      <Month />
+      <ScheduleList navigation={navigation} />
+      <Button title="ADD" onPress={() => navigation.navigate("MakeSchedule")} />
+    </View>
+  );
+}
