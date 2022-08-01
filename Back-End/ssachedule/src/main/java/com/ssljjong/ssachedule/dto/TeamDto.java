@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:125c415dd2c1ca8e18d1da57222b986df274fe437592742d59b542b1739f78ac
-size 465
+package com.ssljjong.ssachedule.dto;
+
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class TeamDto {
+
+    private String id;
+    private String name;
+    private List<ChannelDto> channels;
+
+    public TeamDto(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public TeamDto(String id, String name, List<ChannelDto> channels) {
+        this.id = id;
+        this.name = name;
+        this.channels = channels;
+    }
+}
