@@ -1,11 +1,3 @@
-package com.ssljjong.ssachedule.service;
-
-import com.ssljjong.ssachedule.entity.Channel;
-
-import java.util.List;
-
-public interface ChannelService {
-
-    public List<Channel> getChannelsByUser();
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:36ba5cfaafa39719062574cd898dad219a08b145580da84ce810dd745928fa91
+size 505
