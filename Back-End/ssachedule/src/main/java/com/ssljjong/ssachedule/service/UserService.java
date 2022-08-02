@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:358447fba4f4cacbf6bd3ad8bbbe0cf50f80afedf631ae7c826becb18cc93352
-size 417
+package com.ssljjong.ssachedule.service;
+
+import com.ssljjong.ssachedule.dto.TeamDto;
+import com.ssljjong.ssachedule.entity.UserDomain;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface UserService {
+    public String checkAccount(UserDomain user);
+    public void addTeam(UserDomain user);
+    public void setTrack(UserDomain user);
+    public Optional<UserDomain> getUser(String userEmail);
+
+
+
+}
