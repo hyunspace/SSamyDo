@@ -1,10 +1,3 @@
-import { View, Text } from "react-native";
-import styles from "../../../app.module.css";
-
-export default function NoticeDetail() {
-  return (
-    <View style={styles.center}>
-      <Text>NoticeDetail.js</Text>
-    </View>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:85e809aae2d322004fea3fc3a1d410d46a5efd666164e6ea18396f96282dde54
+size 346
