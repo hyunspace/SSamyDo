@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:78e55e38688d9aa771aeef0afeca424b2de56f88f60c9b58bdb4bd926227101f
-size 469
+import { View, Text, TouchableOpacity } from "react-native";
+import Month from "../components/calendar/Month";
+import styles from "../../app.module.css";
+
+export default function Calendar({ navigation }) {
+  return (
+    <View>
+      <Month />
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => {
+          navigation.navigate("MakeSchedule");
+        }}
+      >
+        <Text>일정 추가</Text>
+      </TouchableOpacity>
+    </View>
+  );
+}
