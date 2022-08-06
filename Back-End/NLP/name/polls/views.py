@@ -1,11 +1,3 @@
-import re
-from django.http import HttpResponse
-from django.shortcuts import render
-import json
-
-# Create your views here.
-def index(request):
-    body = json.loads(request.body.decode("utf-8"))
-    print(body)
-
-    return HttpResponse("Hello, world. You're at the polls index.")
+version https://git-lfs.github.com/spec/v1
+oid sha256:831102531e14ea288eed21932a00887ee7d01455009c6789a0b1e71f4c82eb3c
+size 279
