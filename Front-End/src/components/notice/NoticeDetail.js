@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:85e809aae2d322004fea3fc3a1d410d46a5efd666164e6ea18396f96282dde54
-size 346
+import { View, Text } from "react-native";
+import styles from "../../../app.module.css";
+
+export default function NoticeDetail({route}) {
+  return (
+    <View style={styles.center}>
+      {/* 전달받은 id 잘 찍히는지 확인용으로 넣어둠 */}
+      <Text>{route.params.id}</Text>
+      <Text>NoticeDetail.js</Text>
+    </View>
+  );
+}
