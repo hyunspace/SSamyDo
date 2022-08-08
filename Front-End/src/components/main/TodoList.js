@@ -1,13 +1,3 @@
-import { View, Text } from "react-native";
-import TodoItem from "./TodoItem";
-import styles from "../../../app.module.css";
-
-
-export default function TodoList({ navigation }) {
-  return (
-    <View style={styles.todolistcard}>
-      <Text>오늘의 설문</Text>
-      <TodoItem navigation={navigation} />
-    </View>
-  );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:45af3c7895acd3b348d09c9919de2505102f7d8c182a63ce4ccd502674b4c9dc
+size 325
