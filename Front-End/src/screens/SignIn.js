@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4e4dab0212ce0ac02a15e24727bda94abd07c0ff5a513a12f25112ec517d5785
-size 481
+import { View, Text, TouchableOpacity } from "react-native";
+import Agreement from "../components/signin/Agreement";
+import styles from "../../app.module.css";
+
+export default function SignIn({ navigation }) {
+  return (
+    <View>
+      <Agreement navigation={navigation} />
+      <TouchableOpacity
+        style={[styles.button, { margin: 10 }]}
+        onPress={() => navigation.navigate("TabNav")}
+      >
+        <Text>Main</Text>
+      </TouchableOpacity>
+    </View>
+  );
+}
