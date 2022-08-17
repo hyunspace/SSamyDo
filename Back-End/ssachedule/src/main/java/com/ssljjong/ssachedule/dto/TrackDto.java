@@ -1,17 +1,3 @@
-package com.ssljjong.ssachedule.dto;
-
-import lombok.Data;
-
-@Data
-public class TrackDto {
-
-    private Long id;
-    private String name;
-    private int gi;
-
-    public TrackDto(Long id, String name, int gi) {
-        this.id = id;
-        this.name = name;
-        this.gi = gi;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fdc032d6566d7c79838eec855a0779e0b5cee3e7907ad0f4bf4dfb4eb58c5c1
+size 293
