@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3794b71d4a77de25b2c517d7a1e55849197a4344754272938db41429940ffe2e
-size 184
+package com.ssljjong.ssachedule.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class AuthorityDto {
+
+    private String authorityName;
+}
