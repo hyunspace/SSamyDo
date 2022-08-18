@@ -1,13 +1,3 @@
-package com.ssljjong.ssachedule.service;
-
-import com.ssljjong.ssachedule.dto.WeeklyPlanDto;
-
-import java.util.List;
-
-public interface PlanService {
-
-    List<WeeklyPlanDto> findWeeklyPlanByDate (String date);
-    List<WeeklyPlanDto> findWeeklyPlanByStartDate (String startDate);
-    List<WeeklyPlanDto> findWeeklyPlanByDateBetween (String startDate, String endDate);
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:839a2d347ff4c1d591f388a2b80fb5f6cb46037591fd0ae2a88999777cd32971
+size 369
