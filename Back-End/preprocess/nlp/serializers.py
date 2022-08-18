@@ -1,15 +1,3 @@
-from dataclasses import field
-from rest_framework import serializers
-from .models import Notice, Todo
-
-class NoticeSerializer(serializers.ModelSerializer):
-
-    class Meta:
-        model = Notice
-        fields = ("title", "description", "channel_id", "date", "file_ids")
-    
-class TodoSerializer(serializers.ModelSerializer):
-    
-    class Meta:
-        model = Todo
-        fields = ("title", "description", "notice_id", "file_ids", "start_date", "due_date", "type" )
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f77be9b240b3bdcfd42906646ed3b010d49790cb601cc72091fb2e0e2ba03c9
+size 472

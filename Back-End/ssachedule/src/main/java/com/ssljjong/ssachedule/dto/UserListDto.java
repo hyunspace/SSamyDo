@@ -1,23 +1,3 @@
-package com.ssljjong.ssachedule.dto;
-
-import lombok.Data;
-
-@Data
-public class UserListDto {
-
-    private String username;
-    private String eduPw;
-
-    private String fcmToken;
-
-    public UserListDto(String username, String eduPw) {
-        this.username = username;
-        this.eduPw = eduPw;
-    }
-
-    public UserListDto(String username, String eduPw, String fcmToken) {
-        this.username = username;
-        this.eduPw = eduPw;
-        this.fcmToken = fcmToken;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2dff6bb12de7eb829a786231c62d420feb6a99c41fdd9287f197e7589b32c774
+size 481
