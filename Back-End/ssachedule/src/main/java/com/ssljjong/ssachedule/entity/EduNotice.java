@@ -1,12 +1,3 @@
-package com.ssljjong.ssachedule.entity;
-
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.Entity;
-
-import lombok.Getter;
-
-@Entity
-@Getter
-@DiscriminatorValue("E")
-public class EduNotice extends Notice {
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:425141571948dbe3aa7ca63e017473da0c38647752719c2bd5f62d03a9055f70
+size 226
